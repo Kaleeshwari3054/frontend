@@ -44,8 +44,12 @@ import {
 
 const Hero = () => {
   const navigate = useNavigate();
-  const handleRegister = () => {
-    navigate("/paymentbutton");
+  // const handleRegister = () => {
+  //   navigate("/paymentbutton");
+  // };
+
+   const handleRegister = () => {
+    navigate("/whatsappform");
   };
 
   return (

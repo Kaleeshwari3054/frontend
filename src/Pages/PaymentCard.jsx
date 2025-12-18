@@ -3,8 +3,11 @@ import { useNavigate } from "react-router-dom"; // ✅ add this
 
 const PaymentCard = () => {
   const navigate = useNavigate();
+  // const handleRegister = () => {
+  //   navigate("/paymentbutton");
+  // };
   const handleRegister = () => {
-    navigate("/paymentbutton");
+    navigate("/whatsappform");
   };
   return (
     <div className="mobile-payment-card">

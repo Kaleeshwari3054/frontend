@@ -30,7 +30,8 @@ import ScrollToTop from "./Pages/ScrollToTop.jsx";
 import StatsSection from "./Pages/StatsSection.jsx";
 // import Header from './Pages/Header.jsx';
 import PaymentCard from "./Pages/PaymentCard.jsx";
-import PaymentButton from "./Pages/Paymentbutton.jsx";
+// import PaymentButton from "./Pages/Paymentbutton.jsx";
+import Whatsappform from "./Pages/Whatsappform.jsx";
 function App() {
   return (
     <>
@@ -53,7 +54,8 @@ function App() {
         <Route path="/privacy-policy" element={<Privacy />} />
         <Route path="/terms-and-conditions" element={<TermsConditions />} />
         {/* <Route path="/payment" element={<PaymentButton />} /> */}
-        <Route path="/paymentbutton" element={<PaymentButton />} />
+        {/* <Route path="/paymentbutton" element={<PaymentButton />} /> */}
+        <Route path="/whatsappform" element={<Whatsappform />} />
       </Routes>
     </>
   );
