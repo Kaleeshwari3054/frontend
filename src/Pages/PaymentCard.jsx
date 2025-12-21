@@ -6,6 +6,9 @@ const PaymentCard = () => {
   const handleRegister = () => {
     navigate("/paymentbutton");
   };
+  // const handleRegister = () => {
+  //   navigate("/whatsappform");
+  // };
   return (
     <div className="mobile-payment-card">
       <div className="hero-card">
