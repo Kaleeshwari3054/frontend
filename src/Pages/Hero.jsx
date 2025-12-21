@@ -41,13 +41,13 @@ const handleShare = async () => {
 
 const Hero = () => {
   const navigate = useNavigate();
-  // const handleRegister = () => {
-  //   navigate("/paymentbutton");
-  // };
-
-   const handleRegister = () => {
-    navigate("/whatsappform");
+  const handleRegister = () => {
+    navigate("/paymentbutton");
   };
+
+  //  const handleRegister = () => {
+  //   navigate("/whatsappform");
+  // };
 
   //  const handleRegister = () => {
   //   navigate("/whatsappform");
